@@ -19,11 +19,11 @@ A minimal, industrial-strength Vim configuration for clean focus, smart editing,
 
     Place LizardKing00.vimrc and apply_vim_setting.sh in the same folder.
 
-    Run:
-    ```bash
+Run:
+```bash
         chmod +x apply_vim_setting.sh
         ./apply_vim_setting.sh
-    ```
+```
     This will:
 
     - Copy the config to ~/.vimrc
