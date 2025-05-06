@@ -1,66 +1,35 @@
-# 🦎 LizardKing00 Vimrc
+🦎 LizardKing00 Vimrc
 
-A disciplined, industrial-strength Vim configuration designed for clean focus, smart editing, and maximum file safety.  
-Named after the cold-blooded precision of the **LizardKing00**, this config balances minimalism with power.
+A minimal, industrial-strength Vim configuration for clean focus, smart editing, and maximum file safety.
+⚙️ Features
 
----
+    Theme: industry — dark, metallic, distraction-free
 
-## ⚙️ Features
+    File safety: Persistent undo, backups, and swap files (~/.vim/tmp/)
 
-### 🎨 Visuals
-- `industry` colorscheme — metallic, dark, and distraction-free
-- Relative + absolute line numbers
-- Cursorline highlight
-- 24-bit color support (if available)
+    Editing: Smart indenting, 4-space tabs, system clipboard integration
 
-### 💾 File Safety
-- Persistent undo history
-- Automatic backups
-- Swap file recovery
-- All stored in `~/.vim/tmp/`
+    Search: Case-sensitive, highlight, incremental match
 
-### ✍️ Editing Behavior
-- Smart/auto indenting
-- Space-based tabs (4-wide)
-- System clipboard integration
-- Smooth scrolling
-- Buffer switching without saving
+    Interface: Mouse support, split behavior, enhanced command-line
 
-### 🔍 Search
-- Smart case-sensitive searching
-- Highlight + incremental match
+    Keybindings: <Ctrl+S> to save, <Leader>r to toggle relative numbers, <Space> as leader key
 
-### 🛠️ Interface
-- Mouse support
-- Better splits (right/below)
-- Enhanced command-line suggestions
+⚡ Quick Setup
 
-### ⌨️ Keybindings
-- `<Ctrl+S>` to save (normal + insert)
-- `<Leader>r` to toggle relative line numbers
-- `<Space>` used as leader key
+    Place LizardKing00.vimrc and apply_vim_setting.sh in the same folder.
 
----
-
-## ⚡ Quick Setup with Script
-
-To apply the LizardKing00 configuration automatically:
-
-1. Place `LizardKing00.vimrc` and `apply_vim_setting.sh` in the same folder.
-2. Run:
-
+    Run:
 ```bash
 chmod +x apply_vim_setting.sh
 ./apply_vim_setting.sh
-```
-
+``
 This will:
 
     Copy the config to ~/.vimrc
 
     Create ~/.vim/tmp/{undo,backup,swap} directories
 
-If LizardKing00.vimrc is missing, the script will fail with a 💀💀💀 error.
 📁 Directory Structure
 
 ~/.vim/
@@ -69,15 +38,8 @@ If LizardKing00.vimrc is missing, the script will fail with a 💀💀💀 error
     ├── backup/
     └── swap/
 
-These are used for storing undo history, swap data, and backup files safely out of your working directory.
 🐍 Compatibility
 
-    Vim 8+ and Neovim 0.5+
+    Vim 8+ / Neovim 0.5+
 
     Works on Linux/macOS
-
-🦎 Philosophy
-
-    "LizardKing00 configures in silence. No plugins. No nonsense. Just steel and keys."
-
-Start minimal. Extend only with purpose.
