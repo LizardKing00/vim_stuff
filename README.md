@@ -3,32 +3,32 @@
 A minimal, industrial-strength Vim configuration for clean focus, smart editing, and maximum file safety.
 ⚙️ Features
 
-    Theme: industry — dark, metallic, distraction-free
+    - Theme: industry — dark, metallic, distraction-free
 
-    File safety: Persistent undo, backups, and swap files (~/.vim/tmp/)
+    - File safety: Persistent undo, backups, and swap files (~/.vim/tmp/)
 
-    Editing: Smart indenting, 4-space tabs, system clipboard integration
+    - Editing: Smart indenting, 4-space tabs, system clipboard integration
 
-    Search: Case-sensitive, highlight, incremental match
+    - Search: Case-sensitive, highlight, incremental match
 
-    Interface: Mouse support, split behavior, enhanced command-line
+    - Interface: Mouse support, split behavior, enhanced command-line
 
-    Keybindings: <Ctrl+S> to save, <Leader>r to toggle relative numbers, <Space> as leader key
+    - Keybindings: <Ctrl+S> to save, <Leader>r to toggle relative numbers, <Space> as leader key
 
 ⚡ Quick Setup
 
     Place LizardKing00.vimrc and apply_vim_setting.sh in the same folder.
 
     Run:
-```bash
-chmod +x apply_vim_setting.sh
-./apply_vim_setting.sh
-``
-This will:
+    ```bash
+        chmod +x apply_vim_setting.sh
+        ./apply_vim_setting.sh
+    ```
+    This will:
 
-    Copy the config to ~/.vimrc
+    - Copy the config to ~/.vimrc
 
-    Create ~/.vim/tmp/{undo,backup,swap} directories
+    - Create ~/.vim/tmp/{undo,backup,swap} directories
 
 📁 Directory Structure
 
@@ -40,6 +40,6 @@ This will:
 
 🐍 Compatibility
 
-    Vim 8+ / Neovim 0.5+
+    - Vim 8+ / Neovim 0.5+
 
-    Works on Linux/macOS
+    - Works on Linux/macOS
