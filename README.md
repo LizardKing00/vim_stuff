@@ -31,13 +31,13 @@ Run:
     - Create ~/.vim/tmp/{undo,backup,swap} directories
 
 📁 Directory Structure
-
+```
 ~/.vim/
 └── tmp/
     ├── undo/
     ├── backup/
     └── swap/
-
+```
 🐍 Compatibility
 
     - Vim 8+ / Neovim 0.5+
