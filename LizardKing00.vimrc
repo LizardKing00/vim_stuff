@@ -7,7 +7,7 @@ set nocompatible
 "======== Appearance ========
 syntax on
 set background=dark
-colorscheme industry
+colorscheme sorbet 
 
 set number
 set relativenumber

@@ -3,7 +3,7 @@
 A minimal, industrial-strength Vim configuration for clean focus, smart editing, and maximum file safety.
 ⚙️ Features
 
-    - Theme: industry — dark, metallic, distraction-free
+    - Theme: sorbet- dark, metallic, doens't strain the eyes
 
     - File safety: Persistent undo, backups, and swap files (~/.vim/tmp/)
 
