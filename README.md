@@ -1,7 +1,7 @@
-🦎 LizardKing00 Vimrc
+## LizardKing00 custom .vimrc
 
 A minimal, industrial-strength Vim configuration for clean focus, smart editing, and maximum file safety.
-⚙️ Features
+### Features
 
     - Theme: sorbet- dark, metallic, doens't strain the eyes
 
@@ -15,7 +15,7 @@ A minimal, industrial-strength Vim configuration for clean focus, smart editing,
 
     - Keybindings: <Ctrl+S> to save, <Leader>r to toggle relative numbers, <Space> as leader key
 
-⚡ Quick Setup
+### Quick Setup
 
     Place LizardKing00.vimrc and apply_vim_setting.sh in the same folder.
 
@@ -30,7 +30,7 @@ Run:
 
     - Create ~/.vim/tmp/{undo,backup,swap} directories
 
-📁 Directory Structure
+### Directory Structure
 ```
 ~/.vim/
 └── tmp/
@@ -38,7 +38,7 @@ Run:
     ├── backup/
     └── swap/
 ```
-🐍 Compatibility
+### Compatibility
 
     - Vim 8+ / Neovim 0.5+
 
